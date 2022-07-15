@@ -284,4 +284,5 @@ client.on("messageCreate", message => {
    
 })
 
-client.login(process.env.APP_CONFIG.bot_token);
+//client.login(process.env.APP_CONFIG.bot_token);
+client.login(process.env.Token);
